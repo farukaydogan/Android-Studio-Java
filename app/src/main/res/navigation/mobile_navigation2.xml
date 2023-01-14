@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@id/messageCreateFragment">
+
+    <fragment
+        android:id="@+id/groupCreateFragment"
+        android:name="com.example.farukfinal.ui.groupCreate.groupCreateFragment"
+        android:label="fragment_group_create"
+        tools:layout="@layout/fragment_group_create" />
+    <fragment
+        android:id="@+id/logoutFragment"
+        android:name="com.example.farukfinal.ui.logout.LogoutFragment"
+        android:label="fragment_logout"
+        tools:layout="@layout/fragment_logout" />
+    <fragment
+        android:id="@+id/messageCreateFragment"
+        android:name="com.example.farukfinal.ui.messageCreate.MessageCreateFragment"
+        android:label="fragment_message"
+        tools:layout="@layout/fragment_message" />
+    <fragment
+        android:id="@+id/messageSend"
+        android:name="com.example.farukfinal.ui.messageSend.MessageSend"
+        android:label="fragment_message_send"
+        tools:layout="@layout/fragment_message_send" />
+    <fragment
+        android:id="@+id/groupAddMemberFragment"
+        android:name="com.example.farukfinal.ui.groupAddMember.GroupAddMemberFragment"
+        android:label="fragment_group_add_member"
+        tools:layout="@layout/fragment_group_add_member" />
+</navigation>
